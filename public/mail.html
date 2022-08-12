@@ -1,0 +1,414 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://fronts.googleapis.com/css?family=Raleway:300,400,500,600">
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Raleway"] {
+			font-family: 'Raleway', arial, sans-serif !important;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border: none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100% !important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		table td {
+			border-collapse: collapse;
+		}
+
+		table {
+			border-collapse: collapse;
+		}
+
+		.menu a {
+			color: #6c6c6c;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0.28px;
+			text-decoration: none;
+		}
+
+		.menu td {
+			padding-left: 30px;
+		}
+
+		.header_td {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+
+		.features_td {
+			padding-top: 100px;
+			padding-bottom: 30px;
+		}
+
+		.features_td p {
+			color: #8c8c8c;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 26px;
+			letter-spacing: 0.28px;
+		}
+
+		.blockquote_td {
+			padding-top: 150px;
+			padding-bottom: 50px;
+		}
+
+		.block_td p {
+			color: #8c8c8c;
+			font-family: Raleway;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 30px;
+			letter-spacing: 0.28px;
+		}
+
+		.block_table td {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+
+		.block_table {
+			border-top: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
+			border-left: 1px solid #e6e6e6;
+			border-right: 1px solid #e6e6e6;
+		}
+
+		.author {
+			padding-top: 20px;
+		}
+
+		.author h3 {
+			margin-top: 20px;
+			color: #686868;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0.56px;
+			margin-bottom: 5px;
+		}
+
+		.author p {
+			margin-top: 5px;
+			color: #8c8c8c;
+			font-size: 13px;
+			font-weight: 300;
+			letter-spacing: 0.52px;
+			margin: 0;
+		}
+
+		.footer_td{
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+
+		.footer_menu_td{
+			padding-top: 60px;
+			padding-bottom: 35px;
+		}
+
+		.footer_menu_td a{
+			color: #bcc9dd;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0.36px;
+			text-decoration: none;
+		}
+
+		.copyright_td{
+			color: #bcc9dd;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 0.31px;
+		}
+
+		@media (max-width: 870px) {
+			.main_table_850{
+				width: 600px !important;
+			}
+
+			.table_600{
+				width: 550px !important;
+			}
+
+			.block_table p br{
+				display: none !important;
+			}
+
+			.features_td td{
+				display: block !important;
+				margin-bottom: 50px !important;
+			}
+		}
+
+		@media (max-width: 620px) {
+			.main_table_850{
+				width: 400px !important;
+			}
+
+			.table_600{
+				width: 320px !important;
+			}
+
+			.block_td{
+				display: block !important;
+				margin-bottom: 50px !important;
+				padding: 0 !important;
+			}
+
+			.blockquote_td tr{
+				display: block !important;
+			}
+
+			.block_table{
+				width: 320px !important;
+				display: block !important;
+				margin: 0 auto !important;
+			}
+
+			.author{
+				width: 200px !important;
+			}
+
+			.logo{
+				display: block !important;
+				margin: 0 auto !important;
+				text-align: center !important;
+				width: 200px !important;
+				margin-bottom: 20px !important;
+			}
+
+			.logo img{
+				margin: 0 auto !important;
+			}
+
+			.menu{
+				display: block !important;
+				margin: 0 auto !important;
+			}
+		}
+
+		@media (max-width: 420px){
+			.main_table_850{
+				width: 300px !important;
+			}
+
+			.table_600{
+				width: 260px !important;
+			}
+
+			.block_table{
+				width: 260px !important;
+			}
+
+			.author{
+				width: 130px !important;
+			}
+
+			.footer_menu_td table{
+				width: 260px !important;
+			}
+		}
+	</style>
+</head>
+
+<a></a>
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+		письмо</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededed">
+		<tr>
+			<td>
+				<table class='main_table_850' cellpadding="0" cellspacing="0" with="850" align="center">
+					<tr>
+						<td height="30" width="850"></td>
+					</tr>
+					<tr>
+						<td bgcolor="#ffffff" class="header_td">
+							<table class="table_600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td align="left" class="logo">
+										<img src="https://www.pspinfo.ru/uploads/gallery/thumb/125/cadgfgf.jpg" />
+									</td>
+									<td align="right" class="menu">
+										<table>
+											<tr>
+												<td> <a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">О
+														нас</a> </td>
+												<td> <a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Каталог</a>
+												</td>
+												<td> <a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Отзывы</a>
+												</td>
+												<td> <a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Контакты</a>
+												</td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a>
+								<img src="https://shalimarfinejewelers.com/wp-content/uploads/2019/10/banner-1800x550.jpg"
+									alt="logo" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="features_td" bgcolor="#ffffff">
+							<table class="table_600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td align="center">
+										<img src="https://cdn-icons-png.flaticon.com/128/0/818.png" alt="return" width="32px" height="32px"/>
+										<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+											Быстрая доставка <br /> Гарантия 24 месяца <br /> Именитые партнёры
+										</p>
+										<a href="#"><img src="read-more.png" alt="read_more" /></a>
+									</td>
+									<td align="center">
+										<img src="https://sun9-23.userapi.com/impg/cYlQ70OddT2bhTQR6xZ8OaYsrCAgeK5lOrZAfA/xwFftAfCuYw.jpg?size=515x604&quality=96&sign=c52706d08c69c3952fa5ada12e9ca101&type=album" alt="return" width="28px" height="32px"/>
+										<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+											Быстрая доставка <br /> Гарантия 24 месяца <br /> Именитые партнёры
+										</p>
+										<a href="#"><img src="read-more.png" alt="read_more" /></a>
+									</td>
+									<td align="center">
+										<img src="https://static.thenounproject.com/png/1995104-200.png" alt="return" width="32px" height="32px"/>
+										<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+											Быстрая доставка <br /> Гарантия 24 месяца <br /> Именитые партнёры
+										</p>
+										<a href="#"><img src="read-more.png" alt="read_more" /></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="blockqoute_td" bgcolor="#ffffff">
+							<table class="table_600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td class="block_td" align="center">
+										<table cellpadding="0" cellspacing="0" align="center" width="280">
+											<tr>
+												<td align="center">
+													<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+														Тестовый текст для описания <br /> Это блок в email письме
+														<br /> Текст не несёт за собой <br /> никакой смысловой нагрузки
+													</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="block_td" align="center">
+										<table cellpadding="0" cellspacing="0" align="center" width="280">
+											<tr>
+												<td align="center">
+													<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+														Тестовый текст для описания <br /> Это блок в email письме
+														<br /> Текст не несёт за собой <br /> никакой смысловой нагрузки
+													</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="author" align="center"
+										style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+										<img src="https://cs13.pikabu.ru/avatars/1873/x1873132-1972677953.png"  alt='author' width="64px" height="64px"/>
+										<h3>Виктор Иванов</h3>
+										<p>Senior Frontend Developer</p>
+									</td>
+									<td class="author" align="center"
+										style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+										<img src="https://img.icons8.com/color/452/circled-user-female-skin-type-5--v1.png" alt='author' width="64px" height="64px"/>
+										<h3>Елена Андронова</h3>
+										<p>Junior Backend Developer</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="footer_td" bgcolor="#ffffff">
+							<table class="table_600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td class="footer_logo" align="center">
+										<a href="#">
+											<img src="https://www.pspinfo.ru/uploads/gallery/thumb/125/cadgfgf.jpg"
+												alt="logo" />
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer_menu_td">
+										<table class="table_600" cellpadding="0" cellspacing="0" width="350"
+											align="center">
+											<tr>
+												<td align="center">
+													<a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">О
+														нас</a>
+												</td>
+												<td align="center">
+													<a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Команда</a>
+												</td>
+												<td align="center">
+													<a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Новости</a>
+												</td>
+												<td align="center"> 
+													<a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Контакты</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="copyright_td" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+										test-project.com. All Rights Reserved
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="30" width="850"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
